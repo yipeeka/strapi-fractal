@@ -22,7 +22,7 @@
     "strapi-plugin-i18n": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
     "knex": "0.21.18",
-    "sqlite3": "5.0.0",
+    "pg": "8.5.1",
     "strapi-plugin-graphql": "3.6.8"
   },
   "author": {
