@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_elements_select_colors",
+  "info": {
+    "name": "SelectColor",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "success",
+        "danger",
+        "warning",
+        "info",
+        "light",
+        "dark"
+      ]
+    },
+    "dark": {
+      "type": "enumeration",
+      "enum": [
+        "dark50",
+        "dark100",
+        "dark200",
+        "dark300",
+        "dark400",
+        "dark500",
+        "dark600",
+        "dark700",
+        "dark800",
+        "dark900"
+      ],
+      "default": "dark500"
+    }
+  }
+}

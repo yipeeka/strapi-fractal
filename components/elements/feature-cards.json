@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_elements_feature_cards",
+  "info": {
+    "name": "FeatureCards",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "badge": {
+      "type": "string"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.button-link"
+    },
+    "url": {
+      "type": "string",
+      "regex": "^$|^[a-zA-Z/-]+$"
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "collectionName": "components_sections_feature_cards_groups",
+  "info": {
+    "name": "FeatureCardsGroup",
+    "icon": "dice"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "label": {
+      "type": "text"
+    },
+    "backgroundImage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "row",
+        "col",
+        "overly"
+
+      ]
+    },
+    "linkType": {
+      "type": "enumeration",
+      "enum": [
+        "link",
+        "button"
+      ],
+      "default": "button"
+    },
+    "reverse": {
+      "type": "boolean"
+    },
+    "cardBorder": {
+      "type": "boolean"
+    },
+    "cardRound": {
+      "type": "boolean"
+    },
+    "backgroundDark": {
+      "type": "boolean"
+    },
+    "cardBackgroundDark": {
+      "type": "boolean"
+    },
+    "columns": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six"
+      ]
+    },
+    "selectBackgroundColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.select-color"
+    },
+    "selectCardBackgroundColor": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.select-color"
+    },
+    "featureCards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.feature-cards"
+    },
+    "moreInfo": {
+      "type": "text"
+    },
+    "moreInfoLink": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.link"
+    }
+  }
+}

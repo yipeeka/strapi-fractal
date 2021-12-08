@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_elements_addresses",
+  "info": {
+    "name": "Address",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "street": {
+      "type": "string"
+    },
+    "postcode": {
+      "type": "integer"
+    },
+    "city": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}

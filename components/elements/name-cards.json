@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_elements_name_cards",
+  "info": {
+    "name": "nameCards",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "photo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "socialMedias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.social-media"
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_sections_contact_forms",
+  "info": {
+    "name": "Contact form",
+    "icon": "envelope-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "type": "boolean"
+    }, 
+    "title": {
+      "type": "string"
+    },
+    "firstNamePlaceholder": {
+      "type": "string"
+    },
+    "lastNamePlaceholder": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "submitButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button"
+    },
+    "address": {
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.address"
+    },
+    "socialMedias": {
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.social-media"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_elements_social_medias",
+  "info": {
+    "name": "SocialMedia",
+    "icon": "users"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
